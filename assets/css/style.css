@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+.redressed{
+    font-family: 'Redressed', cursive
+}
+
+.merriweather{
+    font-family:'Merriweather',cursive
+}
+.tangerine{
+    font-family: 'Tangerine',cursive
+}
+
+.btn-commande{
+    color: teal;
+    border-color: teal;
+    transition: 0.5s;
+
+
+}
+
+.btn-commande:hover , .btn-commande:active{
+    color:white;
+    background-color:teal;
+
+
+}
+
+.ma-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather',serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.55);
+
+
+}
+.ma-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition : padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.ma-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color : var(--bs-teal);
+}
+
+
+.banniere{
+    background :linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.3)),url('../img/gathering.jpg') center center fixed no-repeat;
+    height: 800px;
+
+}
+
+.banniere-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color:white;
+
+}
